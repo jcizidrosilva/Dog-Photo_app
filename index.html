@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<h1>CatPhotoApp</h1>, initial-scale=1.0">
+    <title>Dog app</title>
+</head>
+
+<body>
+    <main>
+        <h1>DogPhotoApp</h1>
+        <section>
+            <h2>Dog Photos in the World</h2>
+            <!--TODO: Add link to dog photos-->
+            <p>Click here to view more<a href="https://www.gettyimages.com.br/fotos/cavalier-king-charles-spaniel"
+                    target="_blank"> dog photos.</a></p>
+
+            <a href="https://freecatphotoapp.com"><img
+                    src="https://gillcrestcavaliers.com/wp-content/uploads/2021/07/GillcrestCavaliers-AdoptingAPuppy-1.jpg"
+                    alt="A cute orange cat lying on its back"></a>
+        </section>
+        <section>
+            <h2>Dog Lists</h2>
+            <h3>Things dogs love:</h3>
+            <ul>
+                <li>play</li>
+                <li>eat all day</li>
+                <li>sleep</li>
+            </ul>
+            <figure>
+                <img src="https://static8.depositphotos.com/1003366/803/i/600/depositphotos_8038546-stock-photo-cavalier-king-charles-spaniel-dog.jpg"
+                    alt="A slice of lasagna on a plate.">
+                <figcaption>Dogs <em>love</em> to play.</figcaption>
+            </figure>
+            <h3>Top 3 things dogs hate:</h3>
+            <ol>
+                <li>being ignored</li>
+                <li>thunder</li>
+                <li>scary fireworks</li>
+            </ol>
+            <figure>
+                <img src="https://media.istockphoto.com/id/490473418/pt/foto/dois-insolente-spaniel-king-charles-cães-na-natureza-ao-ar-livre.jpg?s=612x612&w=0&k=20&c=LxRXYYTAsczZx-sUbwE--pZ6CWEEM5TkH07ioHA-y8k="
+                    alt="Five cats looking around a field.">
+                <figcaption>Dogs <strong>love</strong> other dogs.</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Cat Form</h2>
+            <form action="https://freecatphotoapp.com/submit-cat-photo"></form>
+            <fieldset>
+                <legend>Is your dog an indoor or outdoor dog?</legend>
+                <label><input value="indoor" name="indoor-outdoor" id="indoor" type="radio" checked>Indoor</label>
+                <label><input value="outdoor" name="indoor-outdoor" id="outdoor" type="radio"> Outdoor</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>What's your dog's personality?</legend>
+                <input id="loving" type="checkbox" name="personality" checked> <label for="loving">Loving</label>
+                <input id="lazy" type="checkbox" name="personality"> <label for="lazy">Lazy</label>
+                <input id="energetic" type="checkbox" name="personality"> <label for="energetic">Energetic</label>
+            </fieldset>
+            <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+            <button type="submit">Submit</button>
+        </section>
+    </main>
+    <footer>
+        <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+    </footer>
+</body>
+
+</html>
